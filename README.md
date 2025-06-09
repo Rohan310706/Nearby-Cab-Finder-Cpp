@@ -1,10 +1,10 @@
-# 🚖 Nearby Cab Finder using C++
+#  Nearby Cab Finder using C++
 
 This is a simple C++ console application that finds nearby cabs using the **Great Circle Distance** formula. It takes a user's location and shows the nearest available cabs sorted by distance.
 
 ---
 
-## 🔧 Features
+##  Features
 
 - Uses the **Haversine formula** to calculate distances between two geographic points.
 - Allows dynamic input of user and cab locations.
@@ -13,7 +13,7 @@ This is a simple C++ console application that finds nearby cabs using the **Grea
 
 ---
 
-## 📁 File Structure
+##  File Structure
 
 - `main.cpp` – Core logic of the program
 - `cab_data.csv` – (Optional) Sample file containing cab coordinates
@@ -21,7 +21,7 @@ This is a simple C++ console application that finds nearby cabs using the **Grea
 
 ---
 
-## 📥 Sample Input
+##  Sample Input
 
 ```
 User location: (28.6139, 77.2090) // New Delhi
@@ -32,7 +32,7 @@ Cab3: (28.4595, 77.0266)  // Gurgaon
 
 ---
 
-## 📤 Sample Output
+##  Sample Output
 
 ```
 Cab at (28.7041, 77.1025) - Distance: 12.5 km
@@ -42,7 +42,7 @@ Cab at (28.4595, 77.0266) - Distance: 22.3 km
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### Compile
 ```bash
@@ -56,7 +56,7 @@ g++ main.cpp -o cabfinder
 
 ---
 
-## 🧠 Future Improvements
+##  Future Improvements
 
 - Read cab data from a CSV file
 - Add ETA calculations
@@ -65,7 +65,7 @@ g++ main.cpp -o cabfinder
 
 ---
 
-## 📎 Author
+##  Author
 
 Rohan Bansal – COPC student  @ Thapar University  
 🔗 [GitHub Profile] (https://github.com/Rohan310706)
